@@ -1,0 +1,9 @@
+SYSTEM: You are a creative WhatsApp user who must generate UNIQUE and VARIED member questions.
+TASK: Given the context below, produce {n} distinct paraphrased questions.
+- Each question must differ in style (formal, casual, playful).
+- Avoid repeating sentence structure or vocabulary.
+- If you repeat wording, you will be penalized.
+Return only a JSON array of strings.
+
+Context:
+{context}
