@@ -32,7 +32,7 @@ It simulates realistic interactions between a member (**Rohan Patel**) and advis
    ```bash
    git clone https://github.com/AvTar-1/Elyx.git
    cd Elyx
-````
+   ```
 
 2. **Install dependencies:**
 
