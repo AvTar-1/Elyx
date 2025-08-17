@@ -7,21 +7,21 @@ It simulates realistic interactions between a member (**Rohan Patel**) and advis
 ## Tech_Architecture:
 
 +------------------+       +-------------------------+
-|   Streamlit UI   | <---> |   data_generator.py     |
-|  (app.py)        |       |  (message + rationale)  |
+\|   Streamlit UI   | <---> |   data\_generator.py     |
+\|    (app.py)      |       | (message + rationale)   |
 +------------------+       +-------------------------+
-           |                           |
-           v                           v
+\|                           |
+v                           v
 +------------------+         +----------------------+
-|  model_integration| -----> |   Local LLM (Mistral)|
-|  (llama_cpp API) |         |   GGUF Quantized     |
+\| model\_integration| -----> | Local LLM (Mistral)   |
+\|  (llama\_cpp API) |        |   GGUF Quantized      |
 +------------------+         +----------------------+
-           |
-           v
+|
+v
 +-------------------+
-|  JSON Outputs     |
-|  (messages +      |
-|   decisions)      |
+\|   JSON Outputs    |
+\|  (messages +      |
+\|   decisions)      |
 +-------------------+
 
 ---
@@ -135,5 +135,5 @@ MIT License
 
 ```
 
----
+
 
